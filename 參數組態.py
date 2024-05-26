@@ -85,7 +85,7 @@ processed_Noise = False
 
 # 雜訊類型，僅接受「W/w」、「SP/sp」、「G/g」，不分大小寫。
 # 「W」代表白雜訊、「SP/sp」代表椒鹽雜訊、「G」代表高斯雜訊。
-noise_type = 'B'
+noise_type = 'W'
 
 # 白雜訊專用設定，定義白雜訊的最小與最大雜訊數值。
 # (最小值, 最大值)
