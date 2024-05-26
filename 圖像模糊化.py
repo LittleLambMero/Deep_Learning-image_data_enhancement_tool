@@ -12,7 +12,7 @@ def imageBlur(image: cv2.typing.MatLike, kernelSize: int = 5):
     :param kernelSize: 指定區域單位。指定區域單位設定的範圍越大，則模糊的效果越明顯
     :return: 進行模糊處理後的圖片
     """
-    if kernelSize < 0:
+    if kernelSize < 1:
         kernelSize = 1
 
     return cv2.blur(image, (kernelSize, kernelSize))
@@ -25,7 +25,7 @@ def imageGaussianBlur(image: cv2.typing.MatLike, kernelSize: int = 5):
     :param kernelSize: 指定模糊區域單位（必須是大於 1 的奇數）
     :return: 進行模糊處理後的圖片
     """
-    if kernelSize < 0:
+    if kernelSize < 1:
         kernelSize = 1
 
     if kernelSize % 2 == 0:
