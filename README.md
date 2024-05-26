@@ -12,7 +12,7 @@ file_extension_limit（副檔名限制器）、whitelist（白名單）、class_
 僅須確保上述的參數正確即可運行 delete.py。
 
 # 前置作業
-在運行之前您應該確保以下執行環境是否安裝正確：
+在運行之前您應該確保以下執行環境或安裝包是否安裝正確：
 * Python 3.11.x
 * numpy 1.26.4
 * opencv 4.9.0.80
